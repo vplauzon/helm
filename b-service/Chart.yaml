@@ -1,0 +1,14 @@
+apiVersion: v1
+name: b-service
+version: 0.10.0
+description: Deploys a service in its own namespace.
+keywords:
+  - namespace
+  - service
+home: https://github.com/vplauzon/helm/tree/master/b-service
+sources:
+  - https://github.com/vplauzon/helm/tree/master/b-service
+maintainers: # (optional)
+  - name: Vincent-Philippe Lauzon
+    email: NA
+    url: http://vincentlauzon.com/

@@ -1,7 +1,7 @@
 apiVersion: v1
 name: a-namespace
 version: 0.1.0
-description: A simple example of a chart::  solely deploys a namespace
+description: A simple example of a chart.  It solely deploys a namespace.
 keywords:
   - namespace
   - simple
