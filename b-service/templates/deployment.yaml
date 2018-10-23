@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  namespace: b
   name: my-deployment
   labels:
     app: get-started

@@ -1,4 +1,5 @@
 #  We use parameters here:
+namespace:  c
 service:
   name:  param-service # Name of the Kubernetes' service
   replicaCount: 2 # Number of pods in the replica set
