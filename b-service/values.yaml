@@ -1,2 +1,1 @@
-#  We use parameters here:
-replicaCount: 2
+#  We do not use *values.yaml* in this simple chart

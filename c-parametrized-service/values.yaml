@@ -1,0 +1,6 @@
+#  We use parameters here:
+service:
+  name:  param-service # Name of the Kubernetes' service
+  replicaCount: 2 # Number of pods in the replica set
+deployment:
+  name:  get-started # Name of the deployment

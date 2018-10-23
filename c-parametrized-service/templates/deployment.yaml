@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deployment
+  labels:
+    app: {{.Values.deployment.name}}
+spec:
+  replicas: {{.Values.service.replicaCount}}
+  selector:
+    matchLabels:
+      app: get-started
+  template:
+    metadata:
+      labels:
+        app: get-started
+    spec:
+      containers:
+      - name: myapp
+        image: vplauzon/get-started:part2-no-redis
+        ports:
+        - containerPort: 80
